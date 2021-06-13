@@ -1,0 +1,45 @@
+{
+	"name": "@themaxdavitt/component-wrapper",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "Wrap JSX transforms to create pseudo-components",
+	"main": "index.js",
+	"scripts": {
+		"prettier": "prettier --write .",
+		"test": "xo && c8 ava"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/themaxdavitt/component-wrapper.git"
+	},
+	"keywords": [
+		"jsx",
+		"transform",
+		"component",
+		"wrapper"
+	],
+	"author": "Max Davitt <max@davitt.me>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/themaxdavitt/component-wrapper/issues"
+	},
+	"homepage": "https://github.com/themaxdavitt/component-wrapper",
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"c8": "^7.7.2",
+		"prettier": "^2.3.1",
+		"xo": "^0.40.2"
+	},
+	"prettier": {
+		"useTabs": true,
+		"singleQuote": true,
+		"bracketSpacing": true,
+		"trailingComma": "es5"
+	},
+	"xo": {
+		"prettier": true,
+		"rules": {
+			"unicorn/prefer-array-flat": "off"
+		}
+	}
+}
