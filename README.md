@@ -17,3 +17,7 @@ See the [tests](test.js) and [`@themaxdavitt/hastscript-components`](https://git
 ## License
 
 MIT License, see [`LICENSE`](LICENSE).
+
+## See also
+
+The "sort of" components from [`vhtml`](https://www.npmjs.com/package/vhtml#new-sortof-components)
